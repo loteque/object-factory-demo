@@ -37,13 +37,13 @@ text = "Green Ball"
 margin_top = 48.0
 margin_right = 200.0
 margin_bottom = 68.0
-text = "Red Square"
+text = "Red Cube"
 
 [node name="Button4" type="Button" parent="UserInterface/MarginContainer/VBoxContainer"]
 margin_top = 72.0
 margin_right = 200.0
 margin_bottom = 92.0
-text = "Green Square"
+text = "Green Cube"
 
 [node name="Button5" type="Button" parent="UserInterface/MarginContainer/VBoxContainer"]
 margin_top = 96.0
@@ -55,7 +55,7 @@ text = "Random Color Ball"
 margin_top = 120.0
 margin_right = 200.0
 margin_bottom = 140.0
-text = "Random color square"
+text = "Random colors"
 
 [connection signal="pressed" from="UserInterface/MarginContainer/VBoxContainer/Button" to="." method="_on_Button_pressed"]
 [connection signal="pressed" from="UserInterface/MarginContainer/VBoxContainer/Button2" to="." method="_on_Button2_pressed"]
